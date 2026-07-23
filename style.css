@@ -20,12 +20,10 @@ body {
 .terminal_win header {
   background: #fff;
   background-color: #11a30c;
-  height: 10px;
-  padding: 10px;
-  padding-left: 10px;
   border-radius: 3px 3px 0 0;
   border-color: #044b02;
   cursor: move;
+  display: flex;
   
 }
 
@@ -40,4 +38,37 @@ body {
   overflow: auto;
   flex-grow: 1;
 
+}
+
+.prompt {
+  white-space: pre-wrap;
+}
+
+.underscore {
+  background: none;       
+  border: none;
+  font-size: 30px;
+  text-align: right;
+  margin-left: auto;       
+}
+
+
+.emoji-btn {
+  background: none;       
+  border: none;
+  font-size: 30px;
+  text-align: right;         
+}
+
+.emoji-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.emoji-btn2 {
+  background: none;       
+  border: none;
+  font-size: 20px;
+  text-align: right;       
+}
+.emoji-btn2:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
