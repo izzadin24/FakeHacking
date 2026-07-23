@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+
+
+.terminal-win { 
+  background-color: rgb(61, 60, 60);
+  text-align: left;
+  position: relative;
+  border-radius: 0.5px;
+  border-color: #11a30c;
+  border-style: inherit;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.terminal_win header {
+  background: #fff;
+  background-color: #11a30c;
+  height: 10px;
+  padding: 10px;
+  padding-left: 10px;
+  border-radius: 3px 3px 0 0;
+  border-color: #044b02;
+  cursor: move;
+  
+}
+
+.terminal_win section.terminal {
+  color: #11a30c;
+  font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", monospace;
+  font-size: 11pt;
+  background: #000000;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: auto;
+  flex-grow: 1;
+
+}
